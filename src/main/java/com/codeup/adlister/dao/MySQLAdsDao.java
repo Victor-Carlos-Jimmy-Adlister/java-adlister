@@ -68,7 +68,7 @@ public class MySQLAdsDao implements Ads {
 
     @Override
     public void update(Ad ad) {
-        String query = "UPDATE ads SET name=?, description = ?, price = ?, condition = ?, shiny = ?, type = ?  WHERE id = ?";
+        String query = "UPDATE ads SET name=?, description = ?, price = ?, `condition` = ?, shiny = ?, type = ?  WHERE id = ?";
 
         try {
             PreparedStatement stmt = connection.prepareStatement(query);

@@ -28,6 +28,9 @@
         </div>
     </c:forEach>
 </div>
+            <script>
+                console.log("Hello");
+            </script>
 
 </body>
 </html>
